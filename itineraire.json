@@ -1,0 +1,261 @@
+{
+  "pays": "Vanuatu",
+  "drapeau": "🇻🇺",
+  "symbole": "🌴",
+  "titre": "Trésors cachés de Santo : entre épaves et trous bleus",
+  "budget": "4800 €",
+  "duree": "12 jours",
+  "temps_vol": "Environ 35 heures",
+  "jours": [
+    {
+      "jour": 1,
+      "symbole": "🛬",
+      "titre": "Arrivée au paradis et première immersion",
+      "legende": "Après un long voyage, l'arrivée sur l'île d'Espiritu Santo est un soulagement. Prenez le temps de vous installer tranquillement dans votre hébergement. Cette première journée est dédiée à l'acclimatation en douceur, en découvrant à pied le rythme paisible de Luganville, la capitale de l'île, et en vous imprégnant de l'ambiance unique du Pacifique Sud.",
+      "lieu": "Luganville",
+      "activites": [
+        "🚶‍♂️ <strong>Balade à Luganville</strong>: Déambulez sur l'artère principale pour découvrir les commerces locaux et vous imprégner de l'atmosphère décontractée de la deuxième plus grande ville du Vanuatu."
+      ],
+      "illustration": "jour1.jpg",
+      "encarts": [
+        {
+          "symbole": "✈️",
+          "titre": "Transfert aéroport",
+          "texte": "La plupart des hébergements proposent un service de navette depuis l'aéroport de Pekoa (SON). Pensez à le réserver à l'avance."
+        },
+        {
+          "symbole": "💧",
+          "titre": "Hydratation",
+          "texte": "Le climat est tropical et humide. Buvez beaucoup d'eau pour bien vous acclimater dès votre arrivée."
+        }
+      ]
+    },
+    {
+      "jour": 2,
+      "symbole": "💧",
+      "titre": "La magie des trous bleus",
+      "legende": "Partez à la découverte des trésors naturels les plus spectaculaires de Santo : les trous bleus. Ces résurgences d'eau douce d'une pureté incroyable affichent une couleur saphir presque irréelle. Chaque trou bleu a sa propre personnalité, offrant une expérience de baignade unique et rafraîchissante au cœur d'une végétation luxuriante. Une journée inoubliable pour les yeux et l'esprit.",
+      "lieu": "Côte Est de Santo",
+      "activites": [
+        "💎 <strong>Nage au Nanda Blue Hole</strong>: Plongez dans une eau d'une pureté et d'une couleur saphir irréelles, un véritable aquarium d'eau douce au cœur de la jungle.",
+        "🛶 <strong>Exploration du Riri Blue Hole</strong>: Atteignez ce joyau caché après une courte balade en pirogue traditionnelle sur la rivière, une expérience authentique et apaisante."
+      ],
+      "illustration": "jour2.jpg",
+      "encarts": [
+        {
+          "symbole": "💵",
+          "titre": "Droits d'entrée",
+          "texte": "L'accès aux trous bleus est payant (environ 500-1000 VUV par personne), car ils se situent sur des terres coutumières. Prévoyez des espèces."
+        }
+      ]
+    },
+    {
+      "jour": 3,
+      "symbole": "🚢",
+      "titre": "Plongée dans l'Histoire",
+      "legende": "Luganville est un haut lieu de la plongée sur épave, héritage de la Seconde Guerre mondiale. Aujourd'hui, vous explorez deux sites mondialement connus situés à quelques minutes de la ville. Que vous soyez plongeur certifié ou simple amateur de snorkeling, le spectacle de ces vestiges de l'histoire, aujourd'hui colonisés par la vie marine, est saisissant et émouvant.",
+      "lieu": "Luganville",
+      "activites": [
+        "🤿 <strong>Exploration du SS President Coolidge</strong>: Découvrez l'une des épaves les plus grandes et accessibles au monde, un paquebot de luxe transformé en transport de troupes qui repose à quelques mètres du rivage.",
+        "🐠 <strong>Snorkeling à Million Dollar Point</strong>: Nagez au-dessus d'un incroyable amoncellement de matériel militaire américain jeté à la mer à la fin de la guerre, désormais colonisé par les coraux et les poissons."
+      ],
+      "illustration": "jour3.jpg",
+      "encarts": [
+        {
+          "symbole": "ℹ️",
+          "titre": "Pour tous les niveaux",
+          "texte": "Le Coolidge est accessible aux plongeurs de tous niveaux, tandis que Million Dollar Point est parfait pour le snorkeling depuis la plage."
+        }
+      ]
+    },
+    {
+      "jour": 4,
+      "symbole": "🏖️",
+      "titre": "Échappée vers le Nord idyllique",
+      "legende": "Aujourd'hui, prenez la route panoramique de la côte Est en direction du nord de l'île. Le trajet lui-même est une aventure, traversant des plantations de cocotiers et des petits villages. L'objectif est d'atteindre des plages de carte postale, réputées pour leur sable d'une blancheur éclatante et leurs eaux turquoise, et de déjeuner dans un cadre enchanteur.",
+      "lieu": "Côte Est de Santo",
+      "activites": [
+        "🥂 <strong>Détente à Champagne Beach</strong>: Relaxez-vous sur le sable fin de cette plage iconique, dont l'eau pétille à marée basse en raison de sources volcaniques sous-marines.",
+        "🦞 <strong>Déjeuner les pieds dans l'eau à Port Olry</strong>: Dégustez des fruits de mer frais dans un restaurant local du village de pêcheurs de Port Olry, où les tables sont installées directement sur la plage."
+      ],
+      "illustration": "jour4.jpg",
+      "encarts": [
+        {
+          "symbole": "🚗",
+          "titre": "Location de voiture",
+          "texte": "Louer un 4x4 pour la journée est la meilleure option pour explorer la côte nord à votre rythme et profiter des paysages."
+        },
+        {
+          "symbole": "🐢",
+          "titre": "Astuce",
+          "texte": "Gardez l'œil ouvert à Port Olry, il n'est pas rare d'apercevoir des tortues de mer nager près du rivage."
+        }
+      ]
+    },
+    {
+      "jour": 5,
+      "symbole": "🧗",
+      "titre": "L'aventure de la Millennium Cave",
+      "legende": "Préparez-vous pour la journée la plus intense et la plus mémorable de votre séjour. La Millennium Cave n'est pas une simple visite, c'est une véritable expédition au cœur de la jungle de Santo. Cette aventure physique complète combine randonnée, spéléologie dans une grotte monumentale et canyoning dans une rivière. Une expérience forte en émotions, encadrée par des guides locaux expérimentés.",
+      "lieu": "Centre de Santo",
+      "activites": [
+        "🦇 <strong>Trek et spéléologie à la Millennium Cave</strong>: Lancez-vous dans une journée d'aventure complète incluant une randonnée en forêt, l'exploration d'une grotte immense et du canyoning dans une rivière."
+      ],
+      "illustration": "jour5.jpg",
+      "encarts": [
+        {
+          "symbole": "👟",
+          "titre": "Condition physique",
+          "texte": "Cette excursion requiert une bonne condition physique. Portez des chaussures de marche qui peuvent aller dans l'eau."
+        },
+        {
+          "symbole": "🤝",
+          "titre": "Tourisme solidaire",
+          "texte": "Les revenus de cette activité sont directement gérés par le village local, contribuant au développement de la communauté."
+        }
+      ]
+    },
+    {
+      "jour": 6,
+      "symbole": "🛍️",
+      "titre": "Au cœur de la vie locale",
+      "legende": "Après l'effort de la veille, cette journée est consacrée à une immersion plus douce dans la culture locale. Le matin, plongez dans l'ambiance colorée et animée du marché central de Luganville. L'après-midi, traversez le chenal en bateau-taxi pour une escapade sur la paisible île d'Aore, offrant une perspective différente et de superbes opportunités de snorkeling.",
+      "lieu": "Luganville & Île d'Aore",
+      "activites": [
+        "🍍 <strong>Flânerie au marché de Luganville</strong>: Éveillez vos sens au marché central en découvrant les fruits tropicaux, les légumes racines et l'artisanat local.",
+        "🏝️ <strong>Snorkeling sur les récifs d'Aore</strong>: Prenez un bateau-taxi pour traverser le chenal et explorez les jardins de corail préservés qui bordent l'île, un spot idéal pour observer les tortues."
+      ],
+      "illustration": "jour6.jpg",
+      "encarts": [
+        {
+          "symbole": "📅",
+          "titre": "Jours de marché",
+          "texte": "Le marché est particulièrement animé les lundis, mercredis et samedis, jours où les habitants des villages environnants viennent vendre leurs produits."
+        }
+      ]
+    },
+    {
+      "jour": 7,
+      "symbole": "🛶",
+      "titre": "Kayak, lianes et détente",
+      "legende": "Retournez vers les eaux douces et cristallines de l'île pour une journée mêlant activité physique douce et amusement. Découvrez le Matevulu Blue Hole, célèbre pour son immense banian et sa corde de Tarzan. Ensuite, explorez la rivière en amont ou en aval en kayak, une manière paisible et écologique d'observer la nature luxuriante et la faune aviaire de Santo.",
+      "lieu": "Côte Est de Santo",
+      "activites": [
+        "🌳 <strong>Saut de Tarzan au Matevulu Blue Hole</strong>: Amusez-vous avec la fameuse balançoire qui vous propulse directement dans les eaux turquoise de ce grand trou bleu entouré par d'immenses banians.",
+        "🐦 <strong>Balade en kayak sur la rivière</strong>: Pagayez en toute quiétude sur les eaux calmes, en observant la végétation luxuriante et les oiseaux colorés qui peuplent ses berges."
+      ],
+      "illustration": "jour7.jpg",
+      "encarts": [
+        {
+          "symbole": "💪",
+          "titre": "Astuce Kayak",
+          "texte": "Remonter la rivière jusqu'au Matevulu Blue Hole en kayak est une alternative originale à l'accès par la route."
+        }
+      ]
+    },
+    {
+      "jour": 8,
+      "symbole": "🛖",
+      "titre": "Immersion en terre coutumière",
+      "legende": "Éloignez-vous des sites touristiques classiques pour une rencontre authentique avec la culture du Vanuatu. La visite d'un village coutumier, ou 'kastom village', est une occasion unique de comprendre les traditions, les modes de vie et les croyances des habitants de l'île. Partagez un moment avec la communauté, découvrez leurs danses, leur artisanat et leur rapport unique à la nature.",
+      "lieu": "Environs de Luganville",
+      "activites": [
+        "🗿 <strong>Visite d'un village traditionnel</strong>: Participez à une visite guidée pour découvrir les danses coutumières, les techniques de survie en forêt et l'organisation sociale d'un village Ni-Vanuatu."
+      ],
+      "illustration": "jour8.jpg",
+      "encarts": [
+        {
+          "symbole": "📸",
+          "titre": "Respect",
+          "texte": "Demandez toujours la permission avant de prendre des photos des habitants, en particulier des enfants."
+        },
+        {
+          "symbole": "🌿",
+          "titre": "Kava",
+          "texte": "Si l'occasion se présente, goûter au kava, la boisson traditionnelle, est une expérience culturelle forte. À consommer avec modération."
+        }
+      ]
+    },
+    {
+      "jour": 9,
+      "symbole": "☀️",
+      "titre": "Derniers instants de quiétude",
+      "legende": "Profitez de cette dernière journée complète sur Espiritu Santo pour faire ce qui vous plaît le plus. C'est l'occasion parfaite de retourner sur votre plage ou votre trou bleu préféré, de vous offrir une dernière session de plongée, ou simplement de vous détendre dans un hamac avec un bon livre. Faites vos derniers achats de souvenirs et savourez l'atmosphère paisible de l'île avant le départ.",
+      "lieu": "Au choix sur Espiritu Santo",
+      "activites": [
+        "📖 <strong>Journée libre et farniente</strong>: Profitez de cette journée pour vous prélasser sur une plage, retourner sur votre site préféré ou simplement vous reposer.",
+        "🎁 <strong>Achats de souvenirs</strong>: Faites vos derniers achats d'artisanat, comme des sculptures sur bois ou des paniers tressés, pour rapporter un morceau de Vanuatu avec vous."
+      ],
+      "illustration": "jour9.jpg",
+      "encarts": [
+        {
+          "symbole": "💡",
+          "titre": "Suggestion",
+          "texte": "Un dernier dîner de fruits de mer dans un des restaurants en bord de mer de Luganville est une excellente façon de conclure le séjour."
+        }
+      ]
+    },
+    {
+      "jour": 10,
+      "symbole": "🛫",
+      "titre": "Départ de Santo",
+      "legende": "Toutes les bonnes choses ont une fin. Selon l'horaire de votre vol, profitez d'un dernier petit-déjeuner tropical face à l'océan. Il est temps de faire vos adieux à la douceur de vivre de Santo et de vous diriger vers l'aéroport de Pekoa (SON) pour votre long voyage de retour, la tête et le cœur remplis de souvenirs inoubliables et de couleurs éclatantes.",
+      "lieu": "Luganville",
+      "activites": [
+        "🛫 <strong>Vol retour depuis Luganville</strong>: Transfert vers l'aéroport de Pekoa (SON) pour le début de votre voyage retour vers Paris."
+      ],
+      "illustration": "jour10.jpg",
+      "encarts": [
+        {
+          "symbole": "🧳",
+          "titre": "Bagages",
+          "texte": "Vérifiez bien la franchise bagage pour les vols domestiques et internationaux, qui peut différer."
+        }
+      ]
+    }
+  ],
+  "periodes_ideales": [
+    {
+      "titre": "Les périodes idéales pour ce séjour sont les mois d'avril à octobre.",
+      "symbole": "☀️"
+    }
+  ],
+  "infos_pratiques": [
+    {
+      "titre": "Climat tropical. La saison sèche (avril-octobre) offre des journées ensoleillées et des nuits douces, idéales pour la visite.",
+      "symbole": "🌡️"
+    },
+    {
+      "titre": "La monnaie est le Vatu (VUV). Prévoyez des espèces, les cartes de crédit sont rarement acceptées hors des grands hôtels.",
+      "symbole": "💳"
+    },
+    {
+      "titre": "La location d'un 4x4 est recommandée pour explorer l'île en toute liberté. Des taxis et minibus sont aussi disponibles.",
+      "symbole": "🚗"
+    },
+    {
+      "titre": "Achetez une carte SIM locale (Digicel/TVL) à l'arrivée. Le Wi-Fi est souvent lent et peu répandu en dehors des hôtels.",
+      "symbole": "📶"
+    }
+  ],
+  "liens_utiles": [
+    {
+      "legende": "Infos officielles et inspirations",
+      "titre": "Tourisme Vanuatu",
+      "url": "https://www.vanuatu.travel/fr/",
+      "symbole": "📘"
+    },
+    {
+      "legende": "Vols domestiques",
+      "titre": "Air Vanuatu",
+      "url": "https://www.airvanuatu.com/",
+      "symbole": "✈️"
+    },
+    {
+      "legende": "Prévisions météo",
+      "titre": "Météo Luganville",
+      "url": "https://www.accuweather.com/fr/vu/luganville/351307/weather-forecast/351307",
+      "symbole": "🌤️"
+    }
+  ]
+}
