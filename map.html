@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carte du voyage - undefined</title>
+  <style>
+    body { margin: 0; padding: 0; font-family: Arial, sans-serif; }
+    #map { height: 100vh; width: 100%; }
+    .info-window { max-width: 250px; font-family: Arial, sans-serif; }
+    .info-window img { width: 100%; height: auto; border-radius: 8px; margin-bottom: 10px; }
+    .info-window h3 { margin: 0 0 5px 0; font-size: 16px; color: #333; }
+    .info-window p { margin: 5px 0; font-size: 14px; color: #666; }
+    .info-window a { color: #1a73e8; text-decoration: none; }
+    .info-window a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  
+  <script>
+    function initMap() {
+      const center = { lat: -15.420077333333333, lng: 167.0545137666667 };
+      const map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 10,
+        center: center
+      });
+      
+      const markers = [{"lat":-15.5143494,"lng":167.1771684,"name":"Luganville","jour":1,"titre":"Arrivée au paradis et première immersion","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-15.5143494,167.1771684&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-15.5143494,167.1771684","aiImageUrl":"jour1.jpg"},{"lat":-15.376706,"lng":166.959158,"name":"Côte Est de Santo","jour":2,"titre":"La magie des trous bleus","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-15.376706,166.959158&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-15.376706,166.959158","aiImageUrl":"jour2.jpg"},{"lat":-15.3003549,"lng":166.9182097,"name":"Centre de Santo","jour":5,"titre":"L'aventure de la Millennium Cave","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-15.3003549,166.9182097&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-15.3003549,166.9182097","aiImageUrl":"jour5.jpg"},{"lat":-15.5143494,"lng":167.1771684,"name":"Luganville & Île d'Aore","jour":6,"titre":"Au cœur de la vie locale","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-15.5143494,167.1771684&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-15.5143494,167.1771684","aiImageUrl":"jour6.jpg"},{"lat":-15.5143494,"lng":167.1771684,"name":"Environs de Luganville","jour":8,"titre":"Immersion en terre coutumière","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-15.5143494,167.1771684&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-15.5143494,167.1771684","aiImageUrl":"jour8.jpg"},{"lat":-15.3003549,"lng":166.9182097,"name":"Au choix sur Espiritu Santo","jour":9,"titre":"Derniers instants de quiétude","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-15.3003549,166.9182097&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-15.3003549,166.9182097","aiImageUrl":"jour9.jpg"}];
+      
+      markers.forEach((markerData) => {
+        const marker = new google.maps.Marker({
+          position: { lat: markerData.lat, lng: markerData.lng },
+          map: map,
+          title: markerData.name,
+          label: String(markerData.jour)
+        });
+        
+        const contentString = `
+          <div class="info-window">
+            <img src="${markerData.streetViewUrl}" alt="Street View de ${markerData.name}" />
+            <h3>Jour ${markerData.jour}</h3>
+            <p><strong>${markerData.name}</strong></p>
+            <p><a href="${markerData.streetViewLinkUrl}" target="_blank" rel="noopener noreferrer"><strong>${markerData.titre}</strong></a></p>
+          </div>
+        `;
+        
+        const infoWindow = new google.maps.InfoWindow({
+          content: contentString
+        });
+        
+        marker.addListener('click', () => {
+          infoWindow.open(map, marker);
+        });
+      });
+    }
+  </script>
+  
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q&callback=initMap">
+  </script>
+</body>
+</html>
